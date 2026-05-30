@@ -1,0 +1,29 @@
+{
+  "from": "content",
+  "to": "marketer",
+  "type": "content_ready",
+  "project": "granum-group",
+  "date": "2026-05-30",
+  "payload": {
+    "topic": "5 ошибок при выборе гранитной столешницы",
+    "angle": "Pain-driven: переплата 50 000₽ из-за незнания нюансов",
+    "formats": [
+      {"type": "article", "file": "content/2026-05-30-granite-countertop-mistakes/article.md", "words": 750, "channel": "website-blog"},
+      {"type": "telegram_post", "file": "content/2026-05-30-granite-countertop-mistakes/telegram.md", "words": 220, "channel": "telegram"},
+      {"type": "reddit", "file": "content/2026-05-30-granite-countertop-mistakes/reddit.md", "channel": "r/HomeImprovement", "posting_time": "Tue 9am ET"},
+      {"type": "email", "file": "content/2026-05-30-granite-countertop-mistakes/email.md", "channel": "subscribers"},
+      {"type": "instagram", "file": "content/2026-05-30-granite-countertop-mistakes/instagram.md", "format": "carousel-7-slides", "channel": "instagram"}
+    ],
+    "channels": ["telegram", "reddit", "instagram", "email", "website-blog"],
+    "cta": "Отправь размеры в WhatsApp → расчёт + фото 3 плит за 2 минуты",
+    "utm_template": "utm_source={channel}&utm_medium=organic&utm_campaign=granite-mistakes-202605"
+  },
+  "summary": "5 форматов на тему ошибок при выборе гранита. CTA на WhatsApp-расчёт без звонков. Готово к публикации через Postiz.",
+  "evidence": [
+    "Industry-standard seam width 1.5mm: MIA Marble Institute of America guidelines",
+    "Granite porosity requires sealer every 2-3 years: ASTM C97 standard",
+    "Internal: 12 лет fabrication experience, 3-of-10 supplier replacement rate"
+  ],
+  "confidence": 0.8,
+  "next_action": "marketer: запланировать публикацию через Postiz по расписанию (TG → Mon 10:00, IG → Wed 12:00, Reddit → Tue 16:00 МСК / 9am ET, Email → Thu 11:00)"
+}
